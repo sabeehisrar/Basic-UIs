@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ad53f6;
+  margin: 0;
+  padding: 0;
+  background-image: url("purple.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+
+.container {
+  max-width: 400px;
+  height: auto;
+  margin: 100px auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 10%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-header {
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 0%;
+}
+.missed{
+text-align: center;
+margin-top: 9px;
+color: #a5a5a5;
+}
+
+
+.sign-in-form label {
+  display: block;
+  
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.sign-in-form input::placeholder{
+  color: #c2c2c2;
+}
+
+.sign-in-form input {
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-left: 2%;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin-left: 8%;
+}
+
+.icon{
+  position: relative;
+  display: inline-block;
+  margin-left: -7%;
+  margin-bottom: -5%;
+}
+
+
+.remember-forgot input[type="checkbox"] {
+  outline: none;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  margin-top: 15px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+
+}
+.remember-forgot label{
+  font-size: small;
+  font-weight: lighter;
+  display: inline;
+  color: hsl(0, 1%, 72%);
+}
+
+.remember-forgot a {
+  color: #a100f1;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sign-in-button {
+  background-color: #a100f1;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 50px;
+  cursor: pointer;
+  width: 70%;
+  height: 100%;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  transition: 0.25s ease-in;
+}
+
+
+.sign-in-with-google-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid rgb(181, 180, 180);
+  font-size: 11px;
+  border-radius: 12px;
+  padding: 12px 50px;
+  cursor: pointer;
+  width: 70%;
+  height: 100%;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+.sign-up-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #898989;
+  font-size: 11px;
+}
+
+.sign-up-text a {
+  color: #a100f1;
+  text-decoration: none;
+}
+
+.sign-in-button:hover{
+  background-color: #e5e9ed;
+  outline: #080808;
+  border: black solid 2px;
+  color: rgb(221, 15, 248)
+}
